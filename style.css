@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('fonts/jasonwriting.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.title {
+    font-family: 'MyFont', Times, serif;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 100px;
+}
+.medium-button {
+    font-family: 'MyFont', Times, serif;
+    font-size: 70px;
+    background-color: rgb(222, 208, 143);
+    color: rgb(0, 0, 0);
+    border: None;
+    height: 50px;
+    cursor: pointer;
+    opacity: 1.0;
+    transition: opacity 0.2s;
+    padding-top: 20px;                     
+
+}
+
+html, body {
+    height: 100%;      /* Ensure the body takes up full height */
+    margin: 0;         /* Remove default margin */
+    display: flex;     /* Enable flexbox layout */
+    flex-direction: column;  /* Arrange children vertically */
+
+}
